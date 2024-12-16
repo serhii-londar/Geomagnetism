@@ -23,6 +23,9 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "GeomagnetismTests",
-            dependencies: ["Geomagnetism"]),
+            dependencies: ["Geomagnetism"],
+            resources: [
+                .copy("Resources/WMM2020_TEST_VALUES.txt")
+            ]),
     ]
 )
