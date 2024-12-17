@@ -25,7 +25,7 @@ let package = Package(
             name: "GeomagnetismTests",
             dependencies: ["Geomagnetism"],
             resources: [
-                .copy("Resources/WMM2020_TEST_VALUES.txt")
+                .copy("Resources/WMM2025_TestValues.txt")
             ]),
     ]
 )
